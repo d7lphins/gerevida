@@ -1,0 +1,97 @@
+
+.specialist-picture {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center center;
+}
+.list-item-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  margin-right: 20px;
+}
+.list-item-container:hover {
+  background-color: #f8f9fa;
+}
+.list-item-body-container {
+  flex: 1;
+  margin-left: 15px;
+}
+.list-item-title {
+  margin-bottom: 5px;
+}
+.tag-done {
+  border-radius: 16px;
+  text-align: center;
+}
+.list-item-arrow {
+  margin-left: auto;
+  color: rgb(154, 65, 120);
+  font-size: 25px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+.navbar {
+  background-color: #8A2BE2; /* Roxo vibrante */
+}
+.navbar-nav .nav-link {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffd700; /* Amarelo dourado */
+}
+.navbar-brand {
+  color: #fff;
+}
+.navbar-brand:hover {
+  color: #ffd700;
+}
+section {
+  padding: 60px 0;
+}
+section:nth-of-type(even) {
+  background-color: #e6e6fa; /* Lavanda */
+}
+section:nth-of-type(odd) {
+  background-color: #fff;
+}
+h1 {
+  margin-bottom: 20px;
+}
+p {
+  font-size: 18px;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+.btn-agendamento {
+  background-color: purple;
+  color: white; /* Cor do texto */
+  border-color: purple; /* Cor da borda */
+}
+
+.btn-agendamento:hover {
+  background-color: #6b2f9e; /* Cor de hover */
+  border-color: #6b2f9e;
+}
+
+.btn-roxo-claro {
+  background-color: #8e44ad; /* Cor de fundo roxo claro */
+  color: white; /* Cor do texto */
+  border-color: #8e44ad; /* Cor da borda */
+}
+
+.btn-roxo-claro:hover {
+  background-color: #9b59b6; /* Cor de hover */
+  border-color: #9b59b6;
+}
